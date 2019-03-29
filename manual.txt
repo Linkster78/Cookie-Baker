@@ -1,0 +1,153 @@
+[PROFILE]
+`profile`
+- Provides an embed containing your personal baker profile
+
+`profile <user>`
+- Provides an embed containing the mentioned user's baker profile
+[BAKE]
+`bake`
+- Bakes cookies
+- Every once in a while, a repair message will pop up (See `repair`)
+- Yields original cookies, sometimes golden or cupcakes and very rarely rainbow cookies
+[SELL]
+`sell all`
+- Sells all your original cookies, cupcakes and golden cookies
+- Requires user confirmation
+
+`sell <type> all`
+- Sells all cookies of the specified cookie type
+
+`sell <type> <count>`
+- Sells a certain amount of the specified cookie type
+[TRANSFER]
+`transfer <user> money <amount>`
+- Transfers the specified amount of money to the specified user
+
+`transfer <user> <type> <amount>`
+- Transfers the specified amount of the specified cookie type to the specified user
+[VOTE]
+`vote`
+- Provides the current vote link to vote for the bot
+[SHOP]
+`shop`
+- Displays a list of the available shops
+
+`shop <name>`
+- Provides an embed containing the requested shop and its sellable items
+
+`shop <name> <id>`
+- Purchases an item from the specified shop
+[LEADERBOARD]
+`leaderboard money`
+- Provides an embed containing the current leading players currency wise
+
+`leaderboard level`
+- Provides an embed containing the current leading players in experience and levels
+
+`leaderboard <type>`
+- Provides an embed containing the current leading players in the specified cookie type
+[OVEN]
+`oven`
+- Provides a list of your unlocked ovens and your currently selected one
+- The selected one is marked with **[#]**
+
+`oven <name>`
+- Selects the specified oven
+- The name needs to be the shortened version, or alias e.g. `starter`, `easybake`...
+[RANKS]
+`ranks`
+- Gives you your current level with an easy to understand rank ladder
+- **#** being your current rank and **|** being a previously achieved rank
+[REPAIR]
+`repair <code>`
+- Repairs your oven with the specified "Captcha" code
+[SAMPLE]
+`sample`
+- Provides an embed containing the currently implemented samples and which ones you can use
+- The unusable ones are marked with ~~strikethrough text~~
+
+`sample <name>`
+- Uses the selected sample and gives you its contents
+[UPGRADES]
+`upgrades`
+- Provides an embed containing your current oven upgrades
+[PACKAGE]
+`package`
+- Provides a list of all implemented packages and how many of them you own
+
+`package <name>`
+- Opens a package, randomizes a reward and gives it to you
+[GAME]
+`game`
+- Provides a list of implemented minigames and a brief description of each of them
+
+`game reset`
+- Allows you to reset your game session if the game command ever bugs out
+- This can occur if there are missing permissions. You'll know if this happens because it will always tell you "**You're already playing a game**"
+
+`game <name>`
+- Starts the specified minigame
+[GUILD]
+`guild info`
+- Provides information about your current guild
+
+`guild info <name>`
+- Provides information about the specified guild
+
+`guild invite <user>`
+- Invites a user to your guild
+- You must be an officer or higher to use this
+
+`guild join <name>`
+- Joins a guild
+- The guild must be not invite only or you must be invited
+
+`guild leave`
+- Leaves your current guild
+
+`guild create <name>`
+- Creates a guild
+- Names are limited to 16 characters and must be unique
+
+`guild delete`
+- Deletes your current guild
+- You must be an owner to use this
+
+`guild edit inviteonly <yes/no>`
+- Changes the Invite Only status of your guild
+- You must be an owner to use this
+
+`guild edit description <description>`
+- Changes the Description of your guild
+- You must be an owner to use this
+
+`guild officers add <user>`
+- Promotes a guild member to officer
+- You must be an owner to use this
+
+`guild officers remove <user>`
+- Promotes a guild member to officer
+- You must be an owner to use this
+[INVITE]
+`invite`
+- Provides the current invite for the bot with permissions
+[SERVER]
+`server`
+- Provides a direct invite to the support server to answer all of your bot related questions
+[MANUAL]
+`manual <command>`
+- Provides detailed information about the specified command
+- Let's be real, you already know this if you're here
+[SETTINGS]
+`settings prefix <value>`
+- Changes the server wide bot prefix
+- A 3 character limit is in place, so keep that in mind
+
+`settings roles setup`
+- Initiates the roles setup
+- Roles are basically discord roles associated with the cookie baker ranks, see `ranks`
+- The bot will ask you the names of the roles you want to link one after the other
+- **Please make sure that the bot has the `Manage Roles` permission and that his role is above the configured roles, else he won't be able to grant the roles**
+
+`settings roles clear`
+- Clears your guild's role configuration

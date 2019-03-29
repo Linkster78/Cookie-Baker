@@ -1,0 +1,175 @@
+{
+	"token": "TOKENHERE",
+	"mongo_host": "localhost",
+	"mongo_db": "cookiebaker",
+	"server_invite": "https://discord.gg/INVITE",
+	"bot_invite": "BOT_INVITE",
+	"emote_map": {
+		"original": "cookie emote literal",
+		"rainbow": "rainbow emote literal",
+		"bone": "bone emote literal",
+		"golden": "golden emote literal",
+		"cupcake": "cupcake emote literal",
+		"redvelvet": "redvelvet emote literal"
+	},
+	"donohook_token": "donohook PANEL TOKEN",
+	"discordbots_auth": "webhook AUTH HERE",
+	"discordbots_id": "discordbots id here"
+	"discordbots_token": "discordbots token here",
+	"samples": [
+		{
+			"displayName": "Cookie Sample",
+			"alias": "cookie",
+			"minutes": 5,
+			"contents": {
+				"original": 100
+			}
+		},
+		{
+			"displayName": "Hourly Sample",
+			"alias": "hourly",
+			"minutes": 60,
+			"contents": {
+				"original": 500,
+				"golden": 20,
+				"redvelvet": 2
+			}
+		},
+		{
+			"displayName": "Daily Sample",
+			"alias": "daily",
+			"minutes": 1440,
+			"contents": {
+				"original": 1000,
+				"golden": 60,
+				"rainbow": 3,
+				"bone": 15
+			}
+		},
+		{
+			"displayName": "Weekly Sample",
+			"alias": "weekly",
+			"minutes": 10080,
+			"contents": {
+				"bone": 30,
+				"rainbow": 5,
+				"redvelvet": 8
+			}
+		},
+		{
+			"donator": true,
+			"displayName": "Donator Sample",
+			"alias": "donator",
+			"minutes": 4320,
+			"contents": {
+				"bone": 40,
+				"golden": 100,
+				"rainbow": 4
+			}
+		}
+	],
+	"packages": [
+		{
+			"displayName": "Vote Package",
+			"alias": "vote",
+			"contents": [
+				{
+					"chancePart": 25,
+					"rewardType": "COOKIES",
+					"cookies": {
+						"rainbow": 2
+					}
+				},
+				{
+					"chancePart": 25,
+					"rewardType": "COOKIES",
+					"cookies": {
+						"original": 250
+					}
+				},
+				{
+					"chancePart": 10,
+					"rewardType": "COOKIES",
+					"cookies": {
+						"golden": 25
+					}
+				},
+				{
+					"chancePart": 13,
+					"rewardType": "COOKIES",
+					"cookies": {
+						"cupcake": 100
+					}
+				},
+				{
+					"chancePart": 5,
+					"rewardType": "UPGRADES",
+					"upgrades": [
+						"temperature"
+					]
+				},
+				{
+					"chancePart": 20,
+					"rewardType": "MONEY",
+					"money": 10000
+				},
+				{
+					"chancePart": 2,
+					"rewardType": "OVEN",
+					"oven": "EASYBAKE_OVEN"
+				}
+			]
+		},
+		{
+			"displayName": "Donator Package",
+			"alias": "donator",
+			"contents": [
+				{
+					"chancePart": 25,
+					"rewardType": "COOKIES",
+					"cookies": {
+						"rainbow": 25
+					}
+				},
+				{
+					"chancePart": 20,
+					"rewardType": "COOKIES",
+					"cookies": {
+						"original": 2500
+					}
+				},
+				{
+					"chancePart": 10,
+					"rewardType": "COOKIES",
+					"cookies": {
+						"golden": 100
+					}
+				},
+				{
+					"chancePart": 10,
+					"rewardType": "COOKIES",
+					"cookies": {
+						"cupcake": 500
+					}
+				},
+				{
+					"chancePart": 10,
+					"rewardType": "UPGRADES",
+					"upgrades": [
+						"temperature"
+					]
+				},
+				{
+					"chancePart": 20,
+					"rewardType": "MONEY",
+					"money": 100000
+				},
+				{
+					"chancePart": 5,
+					"rewardType": "OVEN",
+					"oven": "EASYBAKE_OVEN"
+				}
+			]
+		}
+	]
+}
